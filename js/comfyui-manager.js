@@ -210,7 +210,7 @@ var update_all_button = null;
 var badge_mode = "none";
 let share_option = 'all';
 
-// copied style from https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+// copied style from https://ghp.ci/https://github.com/pythongosssss/ComfyUI-Custom-Scripts
 const style = `
 #workflowgallery-button {
 	width: 310px;
@@ -1046,11 +1046,11 @@ class ManagerMenuDialog extends ComfyDialog {
 								[
 									{
 										title: "Comfy Custom Node How To",
-										callback: () => { window.open("https://github.com/chrisgoringe/Comfy-Custom-Node-How-To/wiki/aaa_index", "comfyui-community-manual1"); },
+										callback: () => { window.open("https://ghp.ci/https://github.com/chrisgoringe/Comfy-Custom-Node-How-To/wiki/aaa_index", "comfyui-community-manual1"); },
 									},
 									{
 										title: "ComfyUI Guide To Making Custom Nodes",
-										callback: () => { window.open("https://github.com/Suzie1/ComfyUI_Guide_To_Making_Custom_Nodes/wiki", "comfyui-community-manual2"); },
+										callback: () => { window.open("https://ghp.ci/https://github.com/Suzie1/ComfyUI_Guide_To_Making_Custom_Nodes/wiki", "comfyui-community-manual2"); },
 									},
 									{
 										title: "ComfyUI Examples",

@@ -76,7 +76,7 @@ def extract_nodes(code_text):
         parsed_code = ast.parse(code_text)
 
         assignments = (node for node in parsed_code.body if isinstance(node, ast.Assign))
-        
+
         for assignment in assignments:
             if isinstance(assignment.targets[0], ast.Name) and assignment.targets[0].id in ['NODE_CONFIG', 'NODE_CLASS_MAPPINGS']:
                 node_class_mappings = assignment.value
@@ -90,7 +90,7 @@ def extract_nodes(code_text):
             for key in node_class_mappings.keys:
                     if key is not None and isinstance(key.value, str):
                         s.add(key.value.strip())
-                    
+
             return s
         else:
             return set()
@@ -181,7 +181,7 @@ def scan_in_file(filename, is_builtin=False):
 
 def get_py_file_paths(dirname):
     file_paths = []
-    
+
     for root, dirs, files in os.walk(dirname):
         if ".git" in root or "__pycache__" in root:
             continue
@@ -190,25 +190,25 @@ def get_py_file_paths(dirname):
             if file.endswith(".py"):
                 file_path = os.path.join(root, file)
                 file_paths.append(file_path)
-    
+
     return file_paths
 
 
 def get_nodes(target_dir):
     py_files = []
     directories = []
-    
+
     for item in os.listdir(target_dir):
         if ".git" in item or "__pycache__" in item:
             continue
 
         path = os.path.abspath(os.path.join(target_dir, item))
-        
+
         if os.path.isfile(path) and item.endswith(".py"):
             py_files.append(path)
         elif os.path.isdir(path):
             directories.append(path)
-    
+
     return py_files, directories
 
 
@@ -224,7 +224,7 @@ def get_git_urls_from_json(json_file):
                 if files:
                     git_clone_files.append((files[0], node.get('title'), node.get('preemptions'), node.get('nodename_pattern')))
 
-    git_clone_files.append(("https://github.com/comfyanonymous/ComfyUI", "ComfyUI", None, None))
+    git_clone_files.append(("https://ghp.ci/https://github.com/comfyanonymous/ComfyUI", "ComfyUI", None, None))
 
     return git_clone_files
 
@@ -277,7 +277,7 @@ def update_custom_nodes():
         name = os.path.basename(url)
         if name.endswith(".git"):
             name = name[:-4]
-        
+
         node_info[name] = (url, title, preemptions, node_pattern)
         if not skip_update:
             clone_or_pull_git_repository(url)
@@ -320,7 +320,7 @@ def update_custom_nodes():
                         owner = repo.owner
                         now = datetime.datetime.now(datetime.timezone.utc)
                         author_time_diff = now - owner.created_at
-                        
+
                         last_update = repo.pushed_at.strftime("%Y-%m-%d %H:%M:%S") if repo.pushed_at else 'N/A'
                         item = {
                             "stars": repo.stargazers_count,
@@ -365,7 +365,7 @@ def update_custom_nodes():
                     if url_item is not None:
                         url, item = url_item
                         github_stats[url] = item
-                        
+
             with open('github-stats-cache.json', 'w', encoding='utf-8') as file:
                 json.dump(github_stats, file, ensure_ascii=False, indent=4)
 
@@ -418,13 +418,13 @@ def gen_json(node_info):
     for dirname in node_dirs:
         py_files = get_py_file_paths(dirname)
         metadata = {}
-        
+
         nodes = set()
         for py in py_files:
             nodes_in_file, metadata_in_file = scan_in_file(py, dirname == "ComfyUI")
             nodes.update(nodes_in_file)
             metadata.update(metadata_in_file)
-        
+
         dirname = os.path.basename(dirname)
 
         if 'Jovimetrix' in dirname:
@@ -464,7 +464,7 @@ def gen_json(node_info):
 
                 if preemptions is not None:
                     metadata['preemptions'] = preemptions
-                
+
                 if node_pattern is not None:
                     metadata['nodename_pattern'] = node_pattern
 
@@ -507,7 +507,7 @@ def gen_json(node_info):
 
             if node_pattern is not None:
                 metadata_in_url['nodename_pattern'] = node_pattern
-                
+
             nodes = list(nodes)
             nodes.sort()
             data[git_url] = (nodes, metadata_in_url)

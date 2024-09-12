@@ -1,6 +1,6 @@
 # ComfyUI Manager
 
-**ComfyUI-Manager** is an extension designed to enhance the usability of [ComfyUI](https://github.com/comfyanonymous/ComfyUI). It offers management functions to **install, remove, disable, and enable** various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
+**ComfyUI-Manager** is an extension designed to enhance the usability of [ComfyUI](https://ghp.ci/https://github.com/comfyanonymous/ComfyUI). It offers management functions to **install, remove, disable, and enable** various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
 
 ![menu](misc/menu.jpg)
 
@@ -20,7 +20,7 @@
 To install ComfyUI-Manager in addition to an existing installation of ComfyUI, you can follow the following steps:
 
 1. goto `ComfyUI/custom_nodes` dir in terminal(cmd)
-2. `git clone https://github.com/ltdrdata/ComfyUI-Manager.git`
+2. `git clone https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager.git`
 3. Restart ComfyUI
 
 
@@ -29,7 +29,7 @@ To install ComfyUI-Manager in addition to an existing installation of ComfyUI, y
 - https://git-scm.com/download/win
 - standalone version  
 - select option: use windows default console window
-2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"ComfyUI_windows_portable"` directory
+2. Download [scripts/install-manager-for-portable-version.bat](https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"ComfyUI_windows_portable"` directory
 3. double click `install-manager-for-portable-version.bat` batch file
 
 ![portable-install](misc/portable-install.png)
@@ -62,7 +62,7 @@ comfy install
 To install ComfyUI with ComfyUI-Manager on Linux using a venv environment, you can follow these steps:
 * **prerequisite: python-is-python3, python3-venv, git**
 
-1. Download [scripts/install-comfyui-venv-linux.sh](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-comfyui-venv-linux.sh) into empty install directory
+1. Download [scripts/install-comfyui-venv-linux.sh](https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-comfyui-venv-linux.sh) into empty install directory
 - ComfyUI will be installed in the subdirectory of the specified directory, and the directory will contain the generated executable script.
 2. `chmod +x install-comfyui-venv-linux.sh`
 3. `./install-comfyui-venv-linux.sh`
@@ -234,7 +234,7 @@ NODE_CLASS_MAPPINGS.update({
 
 
 * **Special purpose files** (optional)
-  * `node_list.json` - When your custom nodes pattern of NODE_CLASS_MAPPINGS is not conventional, it is used to manually provide a list of nodes for reference. ([example](https://github.com/melMass/comfy_mtb/raw/main/node_list.json))
+  * `node_list.json` - When your custom nodes pattern of NODE_CLASS_MAPPINGS is not conventional, it is used to manually provide a list of nodes for reference. ([example](https://ghp.ci/https://github.com/melMass/comfy_mtb/raw/main/node_list.json))
   * `requirements.txt` - When installing, this pip requirements will be installed automatically 
   * `install.py` - When installing, it is automatically called
   * `uninstall.py` - When uninstalling, it is automatically called
@@ -338,7 +338,7 @@ When you run the `scan.sh` script:
 ## Troubleshooting
 * If your `git.exe` is installed in a specific location other than system git, please install ComfyUI-Manager and run ComfyUI. Then, specify the path including the file name in `git_exe = ` in the ComfyUI-Manager/config.ini file that is generated.
 * If updating ComfyUI-Manager itself fails, please go to the **ComfyUI-Manager** directory and execute the command `git update-ref refs/remotes/origin/main a361cc1 && git fetch --all && git pull`.
- * Alternatively, download the update-fix.py script from [update-fix.py](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/update-fix.py) and place it in the ComfyUI-Manager directory. Then, run it using your Python command.
+ * Alternatively, download the update-fix.py script from [update-fix.py](https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/update-fix.py) and place it in the ComfyUI-Manager directory. Then, run it using your Python command.
    For the portable version, use `..\..\..\python_embeded\python.exe update-fix.py`.
 * For cases where nodes like `PreviewTextNode` from `ComfyUI_Custom_Nodes_AlekPet` are only supported as front-end nodes, we currently do not provide missing nodes for them.
 * Currently, `vid2vid` is not being updated, causing compatibility issues.
@@ -377,22 +377,22 @@ When you run the `scan.sh` script:
 
 ## TODO: Unconventional form of custom node list
 
-* https://github.com/diontimmer/Sample-Diffusion-ComfyUI-Extension
-* https://github.com/senshilabs/NINJA-plugin
-* https://github.com/MockbaTheBorg/Nodes
-* https://github.com/StartHua/Comfyui_GPT_Story
-* https://github.com/NielsGercama/comfyui_customsampling
-* https://github.com/wrightdaniel2017/ComfyUI-VideoLipSync
-* https://github.com/bxdsjs/ComfyUI-Image-preprocessing
-* https://github.com/SMUELDigital/ComfyUI-ONSET
-* https://github.com/SimithWang/comfyui-renameImages
-* https://github.com/icefairy64/comfyui-model-tilt
-* https://github.com/andrewharp/ComfyUI-EasyNodes
-* https://github.com/SimithWang/comfyui-renameImages
-* https://github.com/Tcheko243/ComfyUI-Photographer-Alpha7-Nodes
-* https://github.com/Limbicnation/ComfyUINodeToolbox
-* https://github.com/chenpipi0807/pip_longsize
-* https://github.com/APZmedia/ComfyUI-APZmedia-srtTools
+* https://ghp.ci/https://github.com/diontimmer/Sample-Diffusion-ComfyUI-Extension
+* https://ghp.ci/https://github.com/senshilabs/NINJA-plugin
+* https://ghp.ci/https://github.com/MockbaTheBorg/Nodes
+* https://ghp.ci/https://github.com/StartHua/Comfyui_GPT_Story
+* https://ghp.ci/https://github.com/NielsGercama/comfyui_customsampling
+* https://ghp.ci/https://github.com/wrightdaniel2017/ComfyUI-VideoLipSync
+* https://ghp.ci/https://github.com/bxdsjs/ComfyUI-Image-preprocessing
+* https://ghp.ci/https://github.com/SMUELDigital/ComfyUI-ONSET
+* https://ghp.ci/https://github.com/SimithWang/comfyui-renameImages
+* https://ghp.ci/https://github.com/icefairy64/comfyui-model-tilt
+* https://ghp.ci/https://github.com/andrewharp/ComfyUI-EasyNodes
+* https://ghp.ci/https://github.com/SimithWang/comfyui-renameImages
+* https://ghp.ci/https://github.com/Tcheko243/ComfyUI-Photographer-Alpha7-Nodes
+* https://ghp.ci/https://github.com/Limbicnation/ComfyUINodeToolbox
+* https://ghp.ci/https://github.com/chenpipi0807/pip_longsize
+* https://ghp.ci/https://github.com/APZmedia/ComfyUI-APZmedia-srtTools
 
 ## Roadmap
 
@@ -417,6 +417,6 @@ When you run the `scan.sh` script:
 
 
 ## Credit
-ComfyUI/[ComfyUI](https://github.com/comfyanonymous/ComfyUI) - A powerful and modular stable diffusion GUI.
+ComfyUI/[ComfyUI](https://ghp.ci/https://github.com/comfyanonymous/ComfyUI) - A powerful and modular stable diffusion GUI.
 
 **And, for all ComfyUI custom node developers**

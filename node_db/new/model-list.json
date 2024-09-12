@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro/resolve/main/diffusion_pytorch_model.safetensors",
       "size": "6.6GB"
     },
-    
+
     {
       "name": "Hyper-SD LoRA (8steps) - FLUX.1 [Dev]",
       "type": "lora",
@@ -500,9 +500,9 @@
       "base": "FLUX.1",
       "save_path": "vae_approx",
       "description": "(FLUX.1 Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taef1_decoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taef1_decoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taef1_decoder.pth",
       "size": "4.71MB"
     },
     {
@@ -511,9 +511,9 @@
       "base": "FLUX.1",
       "save_path": "vae_approx",
       "description": "(FLUX.1 Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taef1_encoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taef1_encoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taef1_encoder.pth",
       "size": "4.71MB"
     },
 
@@ -551,7 +551,7 @@
       "url": "https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors",
       "size": "17.2GB"
     },
-    
+
     {
       "name": "google-t5/t5-v1_1-xxl_encoderonly-fp16",
       "type": "clip",
@@ -633,7 +633,7 @@
       "url": "https://huggingface.co/TencentARC/PhotoMaker-V2/resolve/main/photomaker-v2.bin",
       "size": "1.8GB"
     },
-    
+
     {
       "name": "hunyuan_dit_1.2.safetensors",
       "type": "checkpoint",

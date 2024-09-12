@@ -20,9 +20,9 @@ print(f"### Loading: ComfyUI-Manager ({core.version_str})")
 
 comfy_ui_hash = "-"
 
-SECURITY_MESSAGE_MIDDLE_OR_BELOW = f"ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
-SECURITY_MESSAGE_NORMAL_MINUS = f"ERROR: To use this feature, you must either set '--listen' to a local IP and set the security level to 'normal-' or lower, or set the security level to 'middle' or 'weak'. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
-SECURITY_MESSAGE_GENERAL = f"ERROR: This installation is not allowed in this security_level. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_MIDDLE_OR_BELOW = f"ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.\nReference: https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_NORMAL_MINUS = f"ERROR: To use this feature, you must either set '--listen' to a local IP and set the security level to 'normal-' or lower, or set the security level to 'middle' or 'weak'. Please contact the administrator.\nReference: https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_GENERAL = f"ERROR: This installation is not allowed in this security_level. Please contact the administrator.\nReference: https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
 
 def handle_stream(stream, prefix):
     stream.reconfigure(encoding=locale.getpreferredencoding(), errors='replace')
@@ -60,7 +60,7 @@ def is_allowed_security_level(level):
 
 async def get_risky_level(files):
     json_data1 = await core.get_data_by_mode('local', 'custom-node-list.json')
-    json_data2 = await core.get_data_by_mode('cache', 'custom-node-list.json', channel_url='https://github.com/ltdrdata/ComfyUI-Manager/raw/main')
+    json_data2 = await core.get_data_by_mode('cache', 'custom-node-list.json', channel_url='https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager/raw/main')
 
     all_urls = set()
     for x in json_data1['custom_nodes'] + json_data2['custom_nodes']:
@@ -522,7 +522,7 @@ async def fetch_customnode_alternatives(request):
 
     for item in alter_json['items']:
         populate_markdown(item)
-        
+
     return web.json_response(alter_json, content_type='application/json')
 
 
@@ -601,7 +601,7 @@ async def remove_snapshot(request):
     if not is_allowed_security_level('middle'):
         print(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
         return web.Response(status=403)
-    
+
     try:
         target = request.rel_url.query["target"]
 
@@ -619,7 +619,7 @@ async def remove_snapshot(request):
     if not is_allowed_security_level('middle'):
         print(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
         return web.Response(status=403)
-    
+
     try:
         target = request.rel_url.query["target"]
 
@@ -1023,7 +1023,7 @@ async def install_model(request):
 
             model_url = json_data['url']
             if not core.get_config()['model_download_by_agent'] and (
-                    model_url.startswith('https://github.com') or model_url.startswith('https://huggingface.co') or model_url.startswith('https://heibox.uni-heidelberg.de')):
+                    model_url.startswith('https://ghp.ci/https://github.com') or model_url.startswith('https://huggingface.co') or model_url.startswith('https://heibox.uni-heidelberg.de')):
                 model_dir = get_model_dir(json_data)
                 download_url(model_url, model_dir, filename=json_data['filename'])
                 if model_path.endswith('.zip'):
@@ -1320,7 +1320,7 @@ import asyncio
 
 async def default_cache_update():
     async def get_cache(filename):
-        uri = 'https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/' + filename
+        uri = 'https://ghp.ci/https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/' + filename
         cache_uri = str(core.simple_hash(uri)) + '_' + filename
         cache_uri = os.path.join(core.cache_dir, cache_uri)
 

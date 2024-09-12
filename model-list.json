@@ -6,9 +6,9 @@
       "base": "FLUX.1",
       "save_path": "vae_approx",
       "description": "(FLUX.1 Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taef1_decoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taef1_decoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taef1_decoder.pth",
       "size": "4.71MB"
     },
     {
@@ -17,9 +17,9 @@
       "base": "FLUX.1",
       "save_path": "vae_approx",
       "description": "(FLUX.1 Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taef1_encoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taef1_encoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taef1_encoder.pth",
       "size": "4.71MB"
     },
     {
@@ -28,9 +28,9 @@
       "base": "SD3",
       "save_path": "vae_approx",
       "description": "(SD3 Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taesd3_decoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taesd3_decoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taesd3_decoder.pth",
       "size": "4.94MB"
     },
     {
@@ -39,9 +39,9 @@
       "base": "SD3",
       "save_path": "vae_approx",
       "description": "(SD3 Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taesd3_encoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taesd3_encoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taesd3_encoder.pth",
       "size": "4.94MB"
     },
     {
@@ -50,9 +50,9 @@
       "base": "SDXL",
       "save_path": "vae_approx",
       "description": "(SDXL Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taesdxl_decoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taesdxl_decoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taesdxl_decoder.pth",
       "size": "4.91MB"
     },
     {
@@ -61,9 +61,9 @@
       "base": "SDXL",
       "save_path": "vae_approx",
       "description": "(SDXL Verison) To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taesdxl_encoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taesdxl_encoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taesdxl_encoder.pth",
       "size": "4.91MB"
     },
     {
@@ -72,9 +72,9 @@
       "base": "SD1.x",
       "save_path": "vae_approx",
       "description": "To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taesd_decoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taesd_decoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taesd_decoder.pth",
       "size": "4.91MB"
     },
     {
@@ -83,9 +83,9 @@
       "base": "SD1.x",
       "save_path": "vae_approx",
       "description": "To view the preview in high quality while running samples in ComfyUI, you will need this model.",
-      "reference": "https://github.com/madebyollin/taesd",
+      "reference": "https://ghp.ci/https://github.com/madebyollin/taesd",
       "filename": "taesd_encoder.pth",
-      "url": "https://github.com/madebyollin/taesd/raw/main/taesd_encoder.pth",
+      "url": "https://ghp.ci/https://github.com/madebyollin/taesd/raw/main/taesd_encoder.pth",
       "size": "4.91MB"
     },
     {
@@ -192,8 +192,8 @@
       "type": "upscale",
       "base": "upscale",
       "save_path": "upscale_models/ldsr",
-      "description": "LDSR upscale model. Through the [a/ComfyUI-Flowty-LDSR](https://github.com/flowtyone/ComfyUI-Flowty-LDSR) extension, the upscale model can be utilized.",
-      "reference": "https://github.com/CompVis/latent-diffusion",
+      "description": "LDSR upscale model. Through the [a/ComfyUI-Flowty-LDSR](https://ghp.ci/https://github.com/flowtyone/ComfyUI-Flowty-LDSR) extension, the upscale model can be utilized.",
+      "reference": "https://ghp.ci/https://github.com/CompVis/latent-diffusion",
       "filename": "last.ckpt",
       "url": "https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1",
       "size": "2.04GB"
@@ -215,9 +215,9 @@
       "base": "inswapper",
       "save_path": "insightface",
       "description": "Checkpoint of the insightface swapper model\n(used by ComfyUI-FaceSwap, comfyui-reactor-node, CharacterFaceSwap,\nComfyUI roop and comfy_mtb)",
-      "reference": "https://github.com/facefusion/facefusion-assets",
+      "reference": "https://ghp.ci/https://github.com/facefusion/facefusion-assets",
       "filename": "inswapper_128_fp16.onnx",
-      "url": "https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128_fp16.onnx",
+      "url": "https://ghp.ci/https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128_fp16.onnx",
       "size": "277.7MB"
     },
     {
@@ -226,9 +226,9 @@
       "base": "inswapper",
       "save_path": "insightface",
       "description": "Checkpoint of the insightface swapper model\n(used by ComfyUI-FaceSwap, comfyui-reactor-node, CharacterFaceSwap,\nComfyUI roop and comfy_mtb)",
-      "reference": "https://github.com/facefusion/facefusion-assets",
+      "reference": "https://ghp.ci/https://github.com/facefusion/facefusion-assets",
       "filename": "inswapper_128.onnx",
-      "url": "https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx",
+      "url": "https://ghp.ci/https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx",
       "size": "555.3MB"
     },
     {
@@ -237,9 +237,9 @@
       "base": "deepbump",
       "save_path": "deepbump",
       "description": "Checkpoint of the deepbump model to generate height and normal maps textures from an image (requires comfy_mtb)",
-      "reference": "https://github.com/HugoTini/DeepBump",
+      "reference": "https://ghp.ci/https://github.com/HugoTini/DeepBump",
       "filename": "deepbump256.onnx",
-      "url": "https://github.com/HugoTini/DeepBump/raw/master/deepbump256.onnx",
+      "url": "https://ghp.ci/https://github.com/HugoTini/DeepBump/raw/master/deepbump256.onnx",
       "size": "26.7MB"
     },
     {
@@ -248,9 +248,9 @@
       "base": "face_restore",
       "save_path": "face_restore",
       "description": "Face restoration",
-      "reference": "https://github.com/TencentARC/GFPGAN",
+      "reference": "https://ghp.ci/https://github.com/TencentARC/GFPGAN",
       "filename": "GFPGANv1.3.pth",
-      "url": "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth",
+      "url": "https://ghp.ci/https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth",
       "size": "348.6MB"
     },
     {
@@ -259,9 +259,9 @@
       "base": "face_restore",
       "save_path": "face_restore",
       "description": "Face restoration",
-      "reference": "https://github.com/TencentARC/GFPGAN",
+      "reference": "https://ghp.ci/https://github.com/TencentARC/GFPGAN",
       "filename": "GFPGANv1.4.pth",
-      "url": "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth",
+      "url": "https://ghp.ci/https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth",
       "size": "348.6MB"
     },
     {
@@ -270,9 +270,9 @@
       "base": "face_restore",
       "save_path": "face_restore",
       "description": "Face restoration",
-      "reference": "https://github.com/TencentARC/GFPGAN",
+      "reference": "https://ghp.ci/https://github.com/TencentARC/GFPGAN",
       "filename": "RestoreFormer.pth",
-      "url": "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/RestoreFormer.pth",
+      "url": "https://ghp.ci/https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/RestoreFormer.pth",
       "size": "290.8MB"
     },
     {
@@ -291,7 +291,7 @@
       "type": "zero123",
       "base": "zero123",
       "save_path": "checkpoints/zero123",
-      "description": "Stable Zero123 is a model for view-conditioned image generation based on [a/Zero123](https://github.com/cvlab-columbia/zero123).",
+      "description": "Stable Zero123 is a model for view-conditioned image generation based on [a/Zero123](https://ghp.ci/https://github.com/cvlab-columbia/zero123).",
       "reference": "https://huggingface.co/stabilityai/stable-zero123",
       "filename": "stable_zero123.ckpt",
       "url": "https://huggingface.co/stabilityai/stable-zero123/resolve/main/stable_zero123.ckpt",
@@ -1000,7 +1000,7 @@
       "url": "https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-f32.gguf",
       "size": "19.1GB"
     },
-    
+
 
     {
       "name": "comfyanonymous/clip_l",
@@ -1163,7 +1163,7 @@
       "base": "SD1.5 VAE",
       "save_path": "vae/openai_consistency_decoder",
       "description": "OpenAI Consistency Decoder. Improved decoding for stable diffusion vaes.",
-      "reference": "https://github.com/openai/consistencydecoder",
+      "reference": "https://ghp.ci/https://github.com/openai/consistencydecoder",
       "filename": "decoder.pt",
       "url": "https://openaipublic.azureedge.net/diff-vae/c9cebd3132dd9c42936d803e33424145a748843c8f716c0814838bdc8a2fe7cb/decoder.pt",
       "size": "2.49GB"
@@ -1856,7 +1856,7 @@
       "base": "SAM",
       "save_path": "sams",
       "description": "Segmenty Anything SAM model (ViT-H)",
-      "reference": "https://github.com/facebookresearch/segment-anything#model-checkpoints",
+      "reference": "https://ghp.ci/https://github.com/facebookresearch/segment-anything#model-checkpoints",
       "filename": "sam_vit_h_4b8939.pth",
       "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth",
       "size": "2.56GB"
@@ -1867,7 +1867,7 @@
       "base": "SAM",
       "save_path": "sams",
       "description": "Segmenty Anything SAM model (ViT-L)",
-      "reference": "https://github.com/facebookresearch/segment-anything#model-checkpoints",
+      "reference": "https://ghp.ci/https://github.com/facebookresearch/segment-anything#model-checkpoints",
       "filename": "sam_vit_l_0b3195.pth",
       "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth",
       "size": "1.25GB"
@@ -1878,7 +1878,7 @@
       "base": "SAM",
       "save_path": "sams",
       "description": "Segmenty Anything SAM model (ViT-B)",
-      "reference": "https://github.com/facebookresearch/segment-anything#model-checkpoints",
+      "reference": "https://ghp.ci/https://github.com/facebookresearch/segment-anything#model-checkpoints",
       "filename": "sam_vit_b_01ec64.pth",
       "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
       "size": "375.0MB"
@@ -2032,9 +2032,9 @@
       "base": "Ultralytics",
       "save_path": "ultralytics/segm",
       "description": "These are the available models in the UltralyticsDetectorProvider of Impact Pack.",
-      "reference": "https://github.com/hben35096/assets/releases/tag/yolo8",
+      "reference": "https://ghp.ci/https://github.com/hben35096/assets/releases/tag/yolo8",
       "filename": "face_yolov8m-seg_60.pt",
-      "url": "https://github.com/hben35096/assets/releases/download/yolo8/face_yolov8m-seg_60.pt",
+      "url": "https://ghp.ci/https://github.com/hben35096/assets/releases/download/yolo8/face_yolov8m-seg_60.pt",
       "size": "54.8MB"
     },
     {
@@ -2043,9 +2043,9 @@
       "base": "Ultralytics",
       "save_path": "ultralytics/segm",
       "description": "These are the available models in the UltralyticsDetectorProvider of Impact Pack.",
-      "reference": "https://github.com/hben35096/assets/releases/tag/yolo8",
+      "reference": "https://ghp.ci/https://github.com/hben35096/assets/releases/tag/yolo8",
       "filename": "face_yolov8n-seg2_60.pt",
-      "url": "https://github.com/hben35096/assets/releases/download/yolo8/face_yolov8n-seg2_60.pt",
+      "url": "https://ghp.ci/https://github.com/hben35096/assets/releases/download/yolo8/face_yolov8n-seg2_60.pt",
       "size": "6.77MB"
     },
     {
@@ -2054,9 +2054,9 @@
       "base": "Ultralytics",
       "save_path": "ultralytics/segm",
       "description": "These are the available models in the UltralyticsDetectorProvider of Impact Pack.",
-      "reference": "https://github.com/hben35096/assets/releases/tag/yolo8",
+      "reference": "https://ghp.ci/https://github.com/hben35096/assets/releases/tag/yolo8",
       "filename": "hair_yolov8n-seg_60.pt",
-      "url": "https://github.com/hben35096/assets/releases/download/yolo8/hair_yolov8n-seg_60.pt",
+      "url": "https://ghp.ci/https://github.com/hben35096/assets/releases/download/yolo8/hair_yolov8n-seg_60.pt",
       "size": "6.77MB"
     },
     {
@@ -2065,9 +2065,9 @@
       "base": "Ultralytics",
       "save_path": "ultralytics/segm",
       "description": "These are the available models in the UltralyticsDetectorProvider of Impact Pack.",
-      "reference": "https://github.com/hben35096/assets/releases/tag/yolo8",
+      "reference": "https://ghp.ci/https://github.com/hben35096/assets/releases/tag/yolo8",
       "filename": "skin_yolov8m-seg_400.pt",
-      "url": "https://github.com/hben35096/assets/releases/download/yolo8/skin_yolov8m-seg_400.pt",
+      "url": "https://ghp.ci/https://github.com/hben35096/assets/releases/download/yolo8/skin_yolov8m-seg_400.pt",
       "size": "54.9MB"
     },
     {
@@ -2076,9 +2076,9 @@
       "base": "Ultralytics",
       "save_path": "ultralytics/segm",
       "description": "These are the available models in the UltralyticsDetectorProvider of Impact Pack.",
-      "reference": "https://github.com/hben35096/assets/releases/tag/yolo8",
+      "reference": "https://ghp.ci/https://github.com/hben35096/assets/releases/tag/yolo8",
       "filename": "skin_yolov8n-seg_400.pt",
-      "url": "https://github.com/hben35096/assets/releases/download/yolo8/skin_yolov8n-seg_400.pt",
+      "url": "https://ghp.ci/https://github.com/hben35096/assets/releases/download/yolo8/skin_yolov8n-seg_400.pt",
       "size": "6.83MB"
     },
     {
@@ -2087,9 +2087,9 @@
       "base": "Ultralytics",
       "save_path": "ultralytics/segm",
       "description": "These are the available models in the UltralyticsDetectorProvider of Impact Pack.",
-      "reference": "https://github.com/hben35096/assets/releases/tag/yolo8",
+      "reference": "https://ghp.ci/https://github.com/hben35096/assets/releases/tag/yolo8",
       "filename": "skin_yolov8n-seg_800.pt",
-      "url": "https://github.com/hben35096/assets/releases/download/yolo8/skin_yolov8n-seg_800.pt",
+      "url": "https://ghp.ci/https://github.com/hben35096/assets/releases/download/yolo8/skin_yolov8n-seg_800.pt",
       "size": "6.84MB"
     },
     {
@@ -2372,7 +2372,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter_sd15.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors",
@@ -2383,7 +2383,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter_sd15_light_v11.bin",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light_v11.bin",
@@ -2394,7 +2394,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter_sd15_light.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.safetensors",
@@ -2405,7 +2405,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter-plus_sd15.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors",
@@ -2416,7 +2416,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter-plus-face_sd15.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors",
@@ -2427,7 +2427,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter-full-face_sd15.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors",
@@ -2438,7 +2438,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter_sd15_vit-G.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_vit-G.safetensors",
@@ -2603,7 +2603,7 @@
       "type": "IP-Adapter",
       "base": "SDXL",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/h94/IP-Adapter",
       "filename": "ip-adapter_sdxl.safetensors",
       "url": "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors",
@@ -2647,7 +2647,7 @@
       "type": "IP-Adapter",
       "base": "SD1.5",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/ostris/ip-composition-adapter",
       "filename": "ip_plus_composition_sd15.safetensors",
       "url": "https://huggingface.co/ostris/ip-composition-adapter/resolve/main/ip_plus_composition_sd15.safetensors",
@@ -2658,7 +2658,7 @@
       "type": "IP-Adapter",
       "base": "SDXL",
       "save_path": "ipadapter",
-      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
+      "description": "You can use this model in the [a/ComfyUI IPAdapter plus](https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus) extension.",
       "reference": "https://huggingface.co/ostris/ip-composition-adapter",
       "filename": "ip_plus_composition_sdxl.safetensors",
       "url": "https://huggingface.co/ostris/ip-composition-adapter/resolve/main/ip_plus_composition_sdxl.safetensors",
@@ -2703,9 +2703,9 @@
       "base": "GFPGAN",
       "save_path": "facerestore_models",
       "description": "Face Restoration Models. Download the model required for using the 'Facerestore CF (Code Former)' custom node.",
-      "reference": "https://github.com/TencentARC/GFPGAN/releases",
+      "reference": "https://ghp.ci/https://github.com/TencentARC/GFPGAN/releases",
       "filename": "GFPGANv1.4.pth",
-      "url": "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth",
+      "url": "https://ghp.ci/https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth",
       "size": "348.6MB"
     },
     {
@@ -2714,9 +2714,9 @@
       "base": "CodeFormer",
       "save_path": "facerestore_models",
       "description": "Face Restoration Models. Download the model required for using the 'Facerestore CF (Code Former)' custom node.",
-      "reference": "https://github.com/sczhou/CodeFormer/releases",
+      "reference": "https://ghp.ci/https://github.com/sczhou/CodeFormer/releases",
       "filename": "codeformer.pth",
-      "url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth",
+      "url": "https://ghp.ci/https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth",
       "size": "376.6MB"
     },
     {
@@ -2725,9 +2725,9 @@
       "base": "facexlib",
       "save_path": "facerestore_models",
       "description": "Face Detection Models. Download the model required for using the 'Facerestore CF (Code Former)' custom node.",
-      "reference": "https://github.com/xinntao/facexlib",
+      "reference": "https://ghp.ci/https://github.com/xinntao/facexlib",
       "filename": "detection_Resnet50_Final.pth",
-      "url": "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_Resnet50_Final.pth",
+      "url": "https://ghp.ci/https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_Resnet50_Final.pth",
       "size": "109.5MB"
     },
     {
@@ -2736,9 +2736,9 @@
       "base": "facexlib",
       "save_path": "facerestore_models",
       "description": "Face Detection Models. Download the model required for using the 'Facerestore CF (Code Former)' custom node.",
-      "reference": "https://github.com/xinntao/facexlib",
+      "reference": "https://ghp.ci/https://github.com/xinntao/facexlib",
       "filename": "detection_mobilenet0.25_Final.pth",
-      "url": "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_mobilenet0.25_Final.pth",
+      "url": "https://ghp.ci/https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_mobilenet0.25_Final.pth",
       "size": "1.79MB"
     },
     {
@@ -2747,9 +2747,9 @@
       "base": "facexlib",
       "save_path": "facedetection",
       "description": "Face Detection Models. Download the model required for using the 'Facerestore CF (Code Former)' custom node.",
-      "reference": "https://github.com/xinntao/facexlib",
+      "reference": "https://ghp.ci/https://github.com/xinntao/facexlib",
       "filename": "yolov5l-face.pth",
-      "url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5l-face.pth",
+      "url": "https://ghp.ci/https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5l-face.pth",
       "size": "187.0MB"
     },
     {
@@ -2758,9 +2758,9 @@
       "base": "facexlib",
       "save_path": "facedetection",
       "description": "Face Detection Models. Download the model required for using the 'Facerestore CF (Code Former)' custom node.",
-      "reference": "https://github.com/xinntao/facexlib",
+      "reference": "https://ghp.ci/https://github.com/xinntao/facexlib",
       "filename": "yolov5n-face.pth",
-      "url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5n-face.pth",
+      "url": "https://ghp.ci/https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5n-face.pth",
       "size": "7.15MB"
     },
     {
@@ -2791,7 +2791,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/antelopev2",
       "description": "Antelopev2 1k3d68.onnx model for InstantId. (InstantId needs all Antelopev2 models)",
-      "reference": "https://github.com/cubiq/ComfyUI_InstantID#installation",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_InstantID#installation",
       "filename": "1k3d68.onnx",
       "url": "https://huggingface.co/MonsterMMORPG/tools/resolve/main/1k3d68.onnx",
       "size": "143.6MB"
@@ -2802,7 +2802,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/antelopev2",
       "description": "Antelopev2 2d106det.onnx model for InstantId. (InstantId needs all Antelopev2 models)",
-      "reference": "https://github.com/cubiq/ComfyUI_InstantID#installation",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_InstantID#installation",
       "filename": "2d106det.onnx",
       "url": "https://huggingface.co/MonsterMMORPG/tools/resolve/main/2d106det.onnx",
       "size": "5.03MB"
@@ -2813,7 +2813,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/antelopev2",
       "description": "Antelopev2 genderage.onnx model for InstantId. (InstantId needs all Antelopev2 models)",
-      "reference": "https://github.com/cubiq/ComfyUI_InstantID#installation",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_InstantID#installation",
       "filename": "genderage.onnx",
       "url": "https://huggingface.co/MonsterMMORPG/tools/resolve/main/genderage.onnx",
       "size": "1.32MB"
@@ -2824,7 +2824,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/antelopev2",
       "description": "Antelopev2 glintr100.onnx model for InstantId. (InstantId needs all Antelopev2 models)",
-      "reference": "https://github.com/cubiq/ComfyUI_InstantID#installation",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_InstantID#installation",
       "filename": "glintr100.onnx",
       "url": "https://huggingface.co/MonsterMMORPG/tools/resolve/main/glintr100.onnx",
       "size": "260.7MB"
@@ -2835,7 +2835,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/antelopev2",
       "description": "Antelopev2 scrfd_10g_bnkps.onnx model for InstantId. (InstantId needs all Antelopev2 models)",
-      "reference": "https://github.com/cubiq/ComfyUI_InstantID#installation",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_InstantID#installation",
       "filename": "scrfd_10g_bnkps.onnx",
       "url": "https://huggingface.co/MonsterMMORPG/tools/resolve/main/scrfd_10g_bnkps.onnx",
       "size": "16.9MB"
@@ -2945,7 +2945,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/buffalo_l",
       "description": "Buffalo_l 1k3d68.onnx model for IpAdapterPlus",
-      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
       "filename": "1k3d68.onnx",
       "url": "https://huggingface.co/public-data/insightface/resolve/main/models/buffalo_l/1k3d68.onnx",
       "size": "143.6MB"
@@ -2956,7 +2956,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/buffalo_l",
       "description": "Buffalo_l 2d106det.onnx model for IpAdapterPlus",
-      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
       "filename": "2d106det.onnx",
       "url": "https://huggingface.co/public-data/insightface/resolve/main/models/buffalo_l/2d106det.onnx",
       "size": "5.03MB"
@@ -2967,7 +2967,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/buffalo_l",
       "description": "Buffalo_l det_10g.onnx model for IpAdapterPlus",
-      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
       "filename": "det_10g.onnx",
       "url": "https://huggingface.co/public-data/insightface/resolve/main/models/buffalo_l/det_10g.onnx",
       "size": "16.9MB"
@@ -2978,7 +2978,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/buffalo_l",
       "description": "Buffalo_l genderage.onnx model for IpAdapterPlus",
-      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
       "filename": "genderage.onnx",
       "url": "https://huggingface.co/public-data/insightface/resolve/main/models/buffalo_l/genderage.onnx",
       "size": "1.32MB"
@@ -2989,7 +2989,7 @@
       "base": "inswapper",
       "save_path": "insightface/models/buffalo_l",
       "description": "Buffalo_l w600k_r50.onnx model for IpAdapterPlus",
-      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
+      "reference": "https://ghp.ci/https://github.com/cubiq/ComfyUI_IPAdapter_plus?tab=readme-ov-file#faceid",
       "filename": "w600k_r50.onnx",
       "url": "https://huggingface.co/public-data/insightface/resolve/main/models/buffalo_l/w600k_r50.onnx",
       "size": "174.4MB"
@@ -3000,7 +3000,7 @@
       "base": "blip_model",
       "save_path": "blip",
       "description": "BLIP ImageCaption (COCO) w/ ViT-B and CapFilt-L",
-      "reference": "https://github.com/salesforce/BLIP",
+      "reference": "https://ghp.ci/https://github.com/salesforce/BLIP",
       "filename": "model_base_capfilt_large.pth",
       "url": "https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth",
       "size": "2.12GB"
@@ -3033,9 +3033,9 @@
       "base": "SAM",
       "save_path": "sams",
       "description": "MobileSAM",
-      "reference": "https://github.com/ChaoningZhang/MobileSAM/",
+      "reference": "https://ghp.ci/https://github.com/ChaoningZhang/MobileSAM/",
       "filename": "mobile_sam.pt",
-      "url": "https://github.com/ChaoningZhang/MobileSAM/blob/master/weights/mobile_sam.pt",
+      "url": "https://ghp.ci/https://github.com/ChaoningZhang/MobileSAM/blob/master/weights/mobile_sam.pt",
       "size": "38.8MB"
     },
     {
@@ -3186,7 +3186,7 @@
       "type": "zero123",
       "base": "zero123",
       "save_path": "checkpoints/zero123",
-      "description": "Stable Zero123 is a model for view-conditioned image generation based on [a/Zero123](https://github.com/cvlab-columbia/zero123).",
+      "description": "Stable Zero123 is a model for view-conditioned image generation based on [a/Zero123](https://ghp.ci/https://github.com/cvlab-columbia/zero123).",
       "reference": "https://huggingface.co/stabilityai/stable-zero123",
       "filename": "stable_zero123.ckpt",
       "url": "https://huggingface.co/stabilityai/stable-zero123/resolve/main/stable_zero123.ckpt",

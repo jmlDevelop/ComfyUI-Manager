@@ -1,6 +1,6 @@
-git clone https://github.com/comfyanonymous/ComfyUI
+git clone https://ghp.ci/https://github.com/comfyanonymous/ComfyUI
 cd ComfyUI/custom_nodes
-git clone https://github.com/ltdrdata/ComfyUI-Manager
+git clone https://ghp.ci/https://github.com/ltdrdata/ComfyUI-Manager
 cd ..
 python -m venv venv
 source venv/bin/activate

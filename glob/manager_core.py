@@ -243,7 +243,7 @@ def read_config():
                     'preview_method': default_conf['preview_method'] if 'preview_method' in default_conf else manager_funcs.get_current_preview_method(),
                     'badge_mode': default_conf['badge_mode'] if 'badge_mode' in default_conf else 'none',
                     'git_exe': default_conf['git_exe'] if 'git_exe' in default_conf else '',
-                    'channel_url': default_conf['channel_url'] if 'channel_url' in default_conf else 'https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main',
+                    'channel_url': default_conf['channel_url'] if 'channel_url' in default_conf else 'https://ghp.ci/https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main',
                     'share_option': default_conf['share_option'] if 'share_option' in default_conf else 'all',
                     'bypass_ssl': default_conf['bypass_ssl'].lower() == 'true' if 'bypass_ssl' in default_conf else False,
                     'file_logging': default_conf['file_logging'].lower() == 'true' if 'file_logging' in default_conf else True,
@@ -261,7 +261,7 @@ def read_config():
             'preview_method': manager_funcs.get_current_preview_method(),
             'badge_mode': 'none',
             'git_exe': '',
-            'channel_url': 'https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main',
+            'channel_url': 'https://ghp.ci/https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main',
             'share_option': 'all',
             'bypass_ssl': False,
             'file_logging': True,
@@ -1153,7 +1153,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
     preemption_map = {}
     patterns = []
     for k, v in ext_map.items():
-        if k == 'https://github.com/comfyanonymous/ComfyUI':
+        if k == 'https://ghp.ci/https://github.com/comfyanonymous/ComfyUI':
             for x in v[0]:
                 if x not in preemption_map:
                     preemption_map[x] = []
@@ -1195,7 +1195,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
                     ext = pat_ext[1]
                     break
 
-        if ext == 'https://github.com/comfyanonymous/ComfyUI':
+        if ext == 'https://ghp.ci/https://github.com/comfyanonymous/ComfyUI':
             pass
         elif ext is not None:
             if 'Fooocus' in ext:
